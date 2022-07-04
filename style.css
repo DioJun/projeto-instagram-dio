@@ -1,0 +1,165 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font: sans-senrif;
+    font-size: 14px;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #9A9AE7;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.flex-container {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    margin: 35px auto auto;
+    max-width: 935px;
+    max-height: 625px;
+    min-width: 450px;
+    padding-bottom: 32px;
+}
+
+.left-side {
+    display: flex;
+    align-self: center;
+    margin-bottom: 12px;
+    margin-right: 10px;
+    margin-top: 32px;
+    width: 100%;
+}
+
+.rigth-side {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 32px;
+    margin-bottom: 12px;
+    margin-right: 32px;
+    min-width: 390px;
+}
+
+.group-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: transparent;
+    width: 350px;
+    max-width: 350px;
+    height: 335px;
+    max-height: 335px;
+    border: 1px solid #565876;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.group-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: transparent;
+    width: 350px;
+    height: 92px;
+    border: 1px solid #565876;
+    border-radius: 10px;
+}
+
+.instagram-logo {
+    height: 51;
+    width: 175;
+    margin-top: 25px;
+}
+
+.profile-photo img {
+    justify-content: center;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.profile-photo img {
+    height: 86px;
+    width: 86px;
+}
+
+.instagram-login {
+    background-color: #0095f6;
+    color: #ffffff;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.instagram-logout {
+    color: #000;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.not-account {
+    color: #000;
+    padding: 5px;
+}
+
+.get-the-app {
+    margin: 20px;
+    width: 350px;
+    text-align: center;
+}
+
+.get-app {
+    flex-direction: row;
+}
+
+.get-the-app p {
+    color: #000;
+}
+
+.get-app-img {
+    height: 40px;
+    padding: 5px;
+}
+
+/* media queries */
+
+@media (max-width: 1024px) {
+    .flex-container {
+        width: auto;
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+
+    .left-side {
+        width: auto;
+    }
+}
+
+@media (max-width: 650px) {
+    body {
+        background-color: #9A9AE7;
+    }
+
+    .flex-container {
+        width: 90%;
+    }
+
+    .left-side {
+        display: none;
+    }
+
+    .rigth-side {
+        width: 100%;
+    }
+    
+    .group {
+        border: 1px solid transparent;
+    }
+}
