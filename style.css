@@ -52,7 +52,7 @@ body {
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
-    background-color: transparent;
+    background-color: rgb(255, 255, 255, 0.4);
     width: 350px;
     max-width: 350px;
     height: 335px;
@@ -67,7 +67,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: transparent;
+    background-color: rgb(255, 255, 255, 0.4);
     width: 350px;
     height: 92px;
     border: 1px solid #565876;
